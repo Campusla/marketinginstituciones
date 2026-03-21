@@ -1,6 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Copia desde aquí hasta el final -->
+<style>
+  /* CONFIGURACIÓN RESPONSIVE GLOBAL */
+  
+  /* Asegura que las imágenes y videos no se desborden en el celular */
+  img, video, canvas {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Media Query para Celulares (Pantallas menores a 768px) */
+  @media (max-width: 768px) {
+    
+    /* Ajuste de contenedores principales */
+    .container, .wrapper, .main-content {
+      width: 95% !important;
+      padding: 10px !important;
+      margin: 0 auto !important;
+      display: block !important;
+    }
+
+    /* Forzar que las columnas se apilen una debajo de otra */
+    .row, .grid, .flex-container {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    /* Ajuste de textos para que no se vean gigantes en el móvil */
+    h1 { font-size: 1.8rem !important; text-align: center; }
+    h2 { font-size: 1.5rem !important; text-align: center; }
+    p, span, li { font-size: 1rem !important; line-height: 1.5; }
+
+    /* Ajuste de botones para que sean fáciles de tocar */
+    button, .btn, .button {
+      width: 100% !important;
+      padding: 15px !important;
+      margin-bottom: 10px !important;
+      font-size: 1.1rem !important;
+    }
+
+    /* Ocultar elementos innecesarios en móvil si es necesario */
+    .desktop-only {
+      display: none !important;
+    }
+
+    /* Ajuste de menús de navegación */
+    nav, header {
+      text-align: center !important;
+    }
+    
+    nav ul {
+      padding: 0 !important;
+      list-style: none;
+    }
+
+    nav ul li {
+      display: block !important;
+      margin: 10px 0 !important;
+    }
+  }
+</style>
+
+<!-- NOTA PARA MARTY: 
+     Asegúrate de tener esta línea en el <head> de tu HTML 
+     para que el celular reconozca el código responsive:
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Notificación de Calidad Superior organizacional/ Su organización ha sido elegida para ser parte de la Red de Idoneidad Técnica Global (RITG) CampusLA/ </title>
