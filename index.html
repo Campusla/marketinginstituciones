@@ -1,77 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Copia desde aquí hasta el final -->
-<style>
-  /* CONFIGURACIÓN RESPONSIVE GLOBAL */
-  
-  /* Asegura que las imágenes y videos no se desborden en el celular */
-  img, video, canvas {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Media Query para Celulares (Pantallas menores a 768px) */
-  @media (max-width: 768px) {
-    
-    /* Ajuste de contenedores principales */
-    .container, .wrapper, .main-content {
-      width: 95% !important;
-      padding: 10px !important;
-      margin: 0 auto !important;
-      display: block !important;
-    }
-
-    /* Forzar que las columnas se apilen una debajo de otra */
-    .row, .grid, .flex-container {
-      display: flex !important;
-      flex-direction: column !important;
-    }
-
-    /* Ajuste de textos para que no se vean gigantes en el móvil */
-    h1 { font-size: 1.8rem !important; text-align: center; }
-    h2 { font-size: 1.5rem !important; text-align: center; }
-    p, span, li { font-size: 1rem !important; line-height: 1.5; }
-
-    /* Ajuste de botones para que sean fáciles de tocar */
-    button, .btn, .button {
-      width: 100% !important;
-      padding: 15px !important;
-      margin-bottom: 10px !important;
-      font-size: 1.1rem !important;
-    }
-
-    /* Ocultar elementos innecesarios en móvil si es necesario */
-    .desktop-only {
-      display: none !important;
-    }
-
-    /* Ajuste de menús de navegación */
-    nav, header {
-      text-align: center !important;
-    }
-    
-    nav ul {
-      padding: 0 !important;
-      list-style: none;
-    }
-
-    nav ul li {
-      display: block !important;
-      margin: 10px 0 !important;
-    }
-  }
-</style>
-
-<!-- NOTA PARA MARTY: 
-     Asegúrate de tener esta línea en el <head> de tu HTML 
-     para que el celular reconozca el código responsive:
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
--->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Notificación de Calidad Superior organizacional/ Su organización ha sido elegida para ser parte de la Red de Idoneidad Técnica Global (RITG) CampusLA/ </title>
+    <title>Notificación de Calidad Superior organizacional - CampusLA</title>
     <style>
+        /* ESTILOS ORIGINALES DE TU PROYECTO */
         :root { --azul: #002d55; --oro: #e6b800; --gris: #f4f7f9; --verde: #25d366; }
         body { font-family: 'Garamond', serif; background-color: var(--gris); margin: 0; padding: 40px 10px; color: #333; }
         .doc-container { max-width: 850px; background: #fff; margin: 0 auto; border: 1px solid #ccc; box-shadow: 0 0 30px rgba(0,0,0,0.1); }
@@ -81,6 +15,7 @@
         .track-btn { display: inline-block; margin-top: 15px; padding: 10px 25px; background: var(--azul); color: #fff; text-decoration: none; font-family: Arial; font-size: 0.8rem; border-radius: 50px; font-weight: bold; text-transform: uppercase; }
 
         .content { padding: 50px; }
+        h1 { font-family: Arial; color: var(--azul); font-size: 1.8rem; text-align: center; }
         h2 { font-family: Arial; color: var(--azul); text-transform: uppercase; font-size: 1.3rem; border-left: 5px solid var(--oro); padding-left: 15px; margin-top: 40px; }
 
         .brand-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 25px 0; }
@@ -98,13 +33,7 @@
         .utility-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
         .utility-item { padding: 15px; background: #eef2f7; border-radius: 5px; font-size: 0.95rem; }
 
-        /* SECCIÓN DE ACCIÓN FINAL */
         .cta-section { text-align: center; margin-top: 50px; padding: 40px; background: #f8f9fa; border: 2px solid #eee; border-radius: 10px; }
-        .btn-action { display: block; margin: 10px auto; padding: 20px; width: 85%; text-decoration: none; font-weight: bold; font-family: Arial; border-radius: 5px; font-size: 1.1rem; transition: transform 0.2s; }
-        .btn-action:active { transform: scale(0.98); }
-        .btn-mail { background: var(--azul); color: white; }
-        .btn-whatsapp { background: var(--verde); color: white; }
-        
         .footer { padding: 30px; text-align: center; font-size: 0.8rem; color: #888; border-top: 1px solid #eee; }
     </style>
 </head>
@@ -116,19 +45,19 @@
         <p style="font-family: Arial; font-weight: bold; color: var(--azul); margin-top: 10px;">CampusLA - El Hub de Certificación Internacional más importante de Colombia/ www.campuslatinoamerica.edu.co - Sede Boyacá</p>
         <a href="https://campusla.github.io/hub-campusla-branding/" target="_blank" class="track-btn"> Pincha y CONOCE QUIÉNES SOMOS</a>
     </div>
-<!-- BOTÓN DE ACCESO A PLATAFORMA (AUTORIDAD WEB) -->
-<div style="margin-top: 15px; margin-bottom: 15px; font-family: Arial, sans-serif;">
-    <a href="https://www.campuslatinoamerica.edu.co" 
-       target="_blank" 
-       style="display: flex; align-items: center; justify-content: center; gap: 10px; background-color: #ffffff; color: #0a192f; border: 2px solid #0a192f; padding: 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.9rem; transition: 0.3s;">
-       <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="Web" style="height: 16px; width: 16px;">
-       ACCEDER A LA PLATAFORMA: www.campuslatinoamerica.edu.co
-    </a>
-</div>
+
+    <!-- ACCESO A PLATAFORMA -->
+    <div style="margin: 15px; font-family: Arial, sans-serif;">
+        <a href="https://www.campuslatinoamerica.edu.co" target="_blank" style="display: flex; align-items: center; justify-content: center; gap: 10px; background-color: #ffffff; color: #0a192f; border: 2px solid #0a192f; padding: 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.9rem;">
+            <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="Web" style="height: 16px; width: 16px;">
+            ACCEDER A LA PLATAFORMA: www.campuslatinoamerica.edu.co
+        </a>
+    </div>
+
     <div class="content">
         <h1> Por su labor queremos otorgarle los siguientes Beneficios: Habilitación Institucional de Alto Nivel - Decreto de Selección</h1>
-        <p style="font-size: 1.1rem; line-height: 1.6;">Estimado directivo ( No es marketing ) - Su organización ha sido seleccionada para formar parte de la red de bilingüismo y competencias laborales más robusta del país. Este documento constituye su <strong>decreto de habilitación oficial</strong>.</p>
-<h2> A cuáles beneficios su organización podrá acceder su organización?</h2>
+        <p style="font-size: 1.1rem; line-height: 1.6;">Estimado directivo ( No es marketing ) - Su organización ha sido seleccionada para formar parte de la red de bilingüismo y competencias laborales más robusta del país.</p>
+
         <h2>1. Acceso a Certificaciones Internacionales</h2>
         <div class="brand-grid">
             <div class="brand-item">PEARSON PTE</div>
@@ -141,98 +70,81 @@
             <div class="brand-item">MET MICHIGAN</div>
             <div class="brand-item">AU PAIR TRAVEL AGENCY</div>
             <div class="brand-item">MENTORÍA DOCENTE</div>
-            <div class="brand-item">SOPORTE TÉCNICO PARA LAS CERTIFICACIONES</div>
-            <div class="brand-item">certificaciones en 10 áreas fundamentales para sus estudiantes/ Trabajadores/ Administrativos</div>
+            <div class="brand-item">SOPORTE TÉCNICO</div>
             <div class="brand-item">Oracle Academy</div>
-            <div class="brand-item">Amazon/ Google/Meta/Tesla/Microsof certificados</div>
-            <div class="brand-item">Conferencias para su personal/Mentoría Gratuita/</div>
-            <div class="brand-item">Implementación de Tecnología para scrum y procesos ágiles</div>
-            <div class="brand-item">Ser Parte del programa Mejores Organizaciones para trabajar</div>
-            <div class="brand-item">Podrá generar dinero por la re venta de las certificaciones</div>
         </div>
 
         <div class="award-box">
             <div class="rosette"></div>
             <h3 style="font-family: Arial; color: var(--azul); margin-top: 20px;">ESTA CERTIFICACIÓN RECONOCE LA GESTIÓN EMPRESARIAL EN RRHH Y HABILITA SU EMPRESA U ORGANIZACIÓN COMO CENTRO EXAMINADOR AUTORIZADO</h3>
             <p style="font-size: 1.4rem; font-weight: 900; color: var(--azul); border-bottom: 2px solid var(--azul); display: inline-block;">Reconocimiento Oficial CampusLA</p>
-            <p style="font-family: Arial; font-size: 0.9rem; margin-top: 10px;">Bajo el aval técnico de Campus Latinoamérica</p>
         </div>
 
         <h2>2. Beneficios Inmediatos</h2>
         <div class="benefits-box">
             <ul>
-                <li><strong>Las 6 Universidades más importantes del mundo respaldarán su organización:</strong> reconocimiento a nivel nacional.</li>
-                <li><strong>Sede para presentación de pruebas Respalado por el MEN (Ministerio de Educación Nacional Presencial Boyacá:</strong> Acceso directo desde Duitama/Boyacá a las 6 Universidades más importantes del Mundo.</li>
-                <li><strong>Capacitación Integral:</strong> Formación gratuita para su equipo en herramientas, software IA scrum Metodologias Ágiles.</li>
-                <li><strong>Uso de Logos:</strong> Derecho legal a usar nuestras certificaciones en su organización o con externos.</li>
-                <li><strong>Costo $0:</strong> Sin cuotas de afiliación ni mantenimiento ni compras exigidas hoy ni nunca.</li>
+                <li><strong>Las 6 Universidades más importantes del mundo respaldarán su organización.</strong></li>
+                <li><strong>Sede para presentación de pruebas Respalado por el MEN.</strong></li>
+                <li><strong>Capacitación Integral en software IA y Scrum.</strong></li>
+                <li><strong>Uso de Logos y derecho legal a certificar.</strong></li>
+                <li><strong>Costo $0: Sin cuotas de mantenimiento.</strong></li>
             </ul>
         </div>
 
-        <h2>3. Utilidad de las certificaciones otorgadas a su organización y Proyección Institucional</h2>
+        <h2>3. Utilidad de las certificaciones</h2>
         <div class="utility-grid">
-            <div class="utility-item"><strong>Requisitos de Grado pre - post - Master - PHD- Obligatorios:</strong> Solución para suficiencia en pregrado y posgrado.</div>
-            <div class="utility-item"><strong>Homologación Global Certificados no requieren apostillamiento:</strong> Certificados válidos en más de 300 mil empresas.</div>
-            <div class="utility-item"><strong>Programas AuPair/ Trabajo/ y sistemas empresariales Mundiales:</strong> Intercambios para su comunidad y sus familias.</div>
-            <div class="utility-item"><strong>Becas de Trabajo - Estudio :</strong> Convocatorias internacionales de estudio y labor.</div>
-            <div class="utility-item"><strong>Todos los examenes res 018035 Ministerio de Educación Nacional :</strong> Convocatorias internacionales de estudio y labor.</div>
+            <div class="utility-item"><strong>Requisitos de Grado:</strong> Solución para suficiencia en pre y posgrado.</div>
+            <div class="utility-item"><strong>Homologación Global:</strong> Válidos en más de 300 mil empresas.</div>
+            <div class="utility-item"><strong>Becas de Trabajo:</strong> Convocatorias internacionales directas.</div>
+            <div class="utility-item"><strong>Res 018035 MEN:</strong> Cumplimiento total de la normativa vigente.</div>
         </div>
         
-       <!-- TARJETA DE PRESENTACIÓN Y ACCIÓN FINAL -->
-    <div class="cta-section" style="border: 1px solid #e0e0e0; padding: 25px; border-radius: 8px; background-color: #fcfcfc; margin-top: 30px; font-family: Arial, sans-serif;">
-        
-        <!-- CABECERA DE AUTORIDAD -->
-        <div style="border-left: 4px solid #0a192f; padding-left: 15px; margin-bottom: 25px;">
-            <h2 style="margin: 0; font-size: 1.2rem; color: #0a192f; text-transform: uppercase;">Hollman Alvarez S.</h2>
-            <p style="margin: 5px 0; font-weight: bold; color: #d4af37;">Gerente Nacional CampusLA</p>
-            <p style="margin: 2px 0; font-size: 0.9rem; color: #333;"><strong>Contador Público | Auditor de Procesos Ágiles</strong></p>
-            <p style="margin: 2px 0; font-size: 0.85rem; color: #666;">Bilingüe (3 Idiomas) • Especialista en Escalamiento y Certificación Global</p>
-            <p style="margin: 2px 0; font-size: 0.8rem; color: #888;">Representante Autorizado Pearson VUE Site ID: 91656</p>
+        <!-- FIRMA Y CONTACTO GERENCIAL -->
+        <div class="cta-section" style="border: 1px solid #e0e0e0; padding: 25px; border-radius: 8px; background-color: #fcfcfc; margin-top: 30px; font-family: Arial, sans-serif;">
+            <div style="border-left: 4px solid #0a192f; padding-left: 15px; margin-bottom: 25px; text-align: left;">
+                <h2 style="margin: 0; font-size: 1.2rem; color: #0a192f; text-transform: uppercase; border: none;">Hollman Alvarez S.</h2>
+                <p style="margin: 5px 0; font-weight: bold; color: #d4af37;">Gerente Nacional CampusLA</p>
+                <p style="margin: 2px 0; font-size: 0.9rem; color: #333;"><strong>Contador Público | Auditor de Procesos Ágiles</strong></p>
+                <p style="margin: 2px 0; font-size: 0.85rem; color: #666;">Bilingüe (3 Idiomas) • Especialista en Escalamiento y Certificación Global</p>
+                <p style="margin: 2px 0; font-size: 0.8rem; color: #888;">Representante Autorizado Pearson VUE Site ID: 91656</p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px;">
+                <a href="https://wa.me/573144365569?text=Gerente+Hollman,+solicito+activación+de+beneficios+RITG." target="_blank" style="background-color: #25d366; color: white; padding: 14px; text-decoration: none; font-weight: bold; border-radius: 4px;">Habla con nuestro Gerente Nacional (WHATSAPP)</a>
+                <a href="mailto:hollmanalvarez@campuslatinoamerica.edu.co" target="_blank" style="background-color: #0a192f; color: white; padding: 14px; text-decoration: none; font-weight: bold; border-radius: 4px;">Escríbenos a nuestro mail INSTITUCIONAL</a>
+            </div>
+
+            <div style="display: flex; gap: 10px; border-top: 1px solid #eee; padding-top: 20px;">
+                <a href="https://www.linkedin.com/in/hollman-alvarez-salamanca-4b6937127/" target="_blank" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; background-color: #0077b5; color: white; padding: 10px; text-decoration: none; border-radius: 4px; font-size: 0.75rem;">PERFIL PROFESIONAL</a>
+                <a href="https://campusla.github.io/index.html/" target="_blank" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; background-color: #333; color: white; padding: 10px; text-decoration: none; border-radius: 4px; font-size: 0.75rem;">ACERCA DE HOLLMAN ALVAREZ</a>
+            </div>
         </div>
 
-        <!-- BLOQUE 1: ACCIÓN DIRECTA (WHATSAPP Y GMAIL) -->
-        <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px;">
-            
-            <a href="https://wa.me/573144365569?text=Gerente+Hollman,+solicito+activación+de+beneficios+RITG+para+mi+organización." 
-               target="_blank"
-               style="background-color: #25d366; color: white; padding: 14px; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center; font-size: 0.9rem;">
-               Habla con nuestro Gerente Nacional (WHATSAPP)
-            </a>
-
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hollmanalvarez@campuslatinoamerica.edu.co&su=Activación+de+Estatus+RITG+-+CampusLA&body=Cordial+saludo,+Gerente+Hollman+Alvarez.+Nuestra+organización+confirma+el+interés+en+la+activación+de+estatus+RITG.+Solicitamos+coordinar+la+hoja+de+ruta+institucional." 
-               target="_blank"
-               style="background-color: #0a192f; color: white; padding: 14px; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center; font-size: 0.9rem;">
-               Escribenos si tienes dudas a nuestro mail INSTITUCIONAL.
-            </a>
+        <!-- FOOTER -->
+        <div class="footer">
+            <strong>Plataforma Vigilada y Regulada Ministerio de Educación Nacional res 018035 de 2021.</strong><br>
+            Sede Regional Hub: Duitama, Boyacá | Acreditación CampusLA ID: 91656<br>
+            <a href="http://www.campuslatinoamerica.edu.co" style="color: #0a192f; text-decoration: none;">www.campuslatinoamerica.edu.co</a>
         </div>
-
-        <!-- BLOQUE 2: VALIDACIÓN DE PERFIL Hollman Alvarez Tel 3144365569 (LINKEDIN Y GITHUB CON LOGOS) -->
-        <div style="display: flex; gap: 10px; border-top: 1px solid #eee; padding-top: 20px;">
-            
-            <a href="https://www.linkedin.com/in/hollman-alvarez-salamanca-4b6937127/" 
-               target="_blank" 
-               style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; background-color: #0077b5; color: white; padding: 10px; text-decoration: none; border-radius: 4px; font-size: 0.75rem; font-weight: bold;">
-               <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="height: 14px; width: 14px; filter: brightness(0) invert(1);">
-               PERFIL PROFESIONAL HOLLMAN ALVAREZ
-            </a>
-
-            <a href="https://campusla.github.io/index.html/" 
-               target="_blank" 
-               style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; background-color: #333; color: white; padding: 10px; text-decoration: none; border-radius: 4px; font-size: 0.75rem; font-weight: bold;">
-               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="height: 14px; width: 14px; filter: brightness(0) invert(1);">
-               ACERCA DE HOLLMAN ALVAREZ CEO CAMPUSLA.
-            </a>
-
-        </div>
-    </div> <!-- FIN CTA-SECTION -->
-
-    <!-- FOOTER -->
-    <div class="footer" style="margin-top: 40px; text-align: center; font-size: 0.85rem; color: #777; border-top: 1px solid #eee; padding-top: 20px;">
-        <strong>Plataforma Vigilada y Regulada Ministerio de Educación Nacional res 018035 de 2021.</strong><br>
-        Sede Regional Hub: Duitama, Boyacá | Acreditación CampusLA ID: 91656<br>
-        <a href="http://www.campuslatinoamerica.edu.co" style="color: #0a192f; text-decoration: none;">www.campuslatinoamerica.edu.co</a>
     </div>
+</div>
 
-</div> <!-- FIN CONTENEDOR -->
+<!-- BLOQUE RESPONSIVE FINAL - CORREGIDO Y ASEGURADO -->
+<style>
+@media (max-width: 768px) {
+    body { padding: 10px 5px !important; }
+    .doc-container { width: 100% !important; border: none !important; box-shadow: none !important; }
+    .content { padding: 20px !important; }
+    .brand-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px !important; }
+    .utility-grid { grid-template-columns: 1fr !important; }
+    h1 { font-size: 1.4rem !important; }
+    h2 { font-size: 1.1rem !important; }
+    .header img { max-width: 180px !important; }
+    .award-box { padding: 25px 10px !important; margin: 30px 0 !important; }
+    .cta-section { padding: 15px !important; }
+    .cta-section div { text-align: center !important; border-left: none !important; padding-left: 0 !important; }
+}
+</style>
+
 </body>
 </html>
